@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ReCourse</string>
+    <string name="home">首页</string>
+    <string name="discover">发现</string>
+    <string name="download">下载</string>
+    <string name="mine">我的</string>
+    <string name="search">搜索</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="joined_course">参与课程</string>
+    <string name="study_note">发表手记</string>
+    <string name="study_time">学习时长</string>
+</resources>

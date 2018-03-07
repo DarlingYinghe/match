@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+
+    <TextView
+        android:id="@+id/tv_joined_course_sum_mine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="133"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_joined_course_mine"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv_study_note_mine"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_study_note_sum_mine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="20"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tv_study_note_mine"
+        app:layout_constraintLeft_toRightOf="@id/tv_joined_course_mine"
+        app:layout_constraintRight_toLeftOf="@id/tv_study_time_mine"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_study_time_sum_mine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="31"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tv_study_time_mine"
+        app:layout_constraintLeft_toRightOf="@id/tv_study_note_mine"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_joined_course_mine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/joined_course"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv_study_note_mine"
+        app:layout_constraintTop_toBottomOf="@id/tv_joined_course_sum_mine" />
+
+    <TextView
+        android:id="@+id/tv_study_note_mine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/study_note"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_joined_course_mine"
+        app:layout_constraintRight_toLeftOf="@id/tv_study_time_mine"
+        app:layout_constraintTop_toBottomOf="@id/tv_study_note_sum_mine" />
+
+    <TextView
+        android:id="@+id/tv_study_time_mine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/study_time"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_study_note_mine"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_study_time_sum_mine" />
+</android.support.constraint.ConstraintLayout>
